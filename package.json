@@ -11,7 +11,7 @@
     "src/"
   ],
   "name": "check-invalid-control-characters",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check invalid control characters like `\\u0008` in plain text.",
   "main": "lib/check-invalid-control-characters.js",
   "scripts": {
