@@ -1,0 +1,42 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "check-invalid-control-characters",
+  "version": "1.0.0",
+  "description": "Check invalid control characters like `\\u0008` in plain text.",
+  "main": "lib/check-invalid-control-characters.js",
+  "scripts": {
+    "test": "mocha "
+  },
+  "keywords": [
+    "text",
+    "check",
+    "control-character"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/check-invalid-control-characters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/check-invalid-control-characters/issues"
+  },
+  "homepage": "https://github.com/azu/check-invalid-control-characters",
+  "dependencies": {
+    "@std/esm": "^0.5.0",
+    "globby": "^6.1.0",
+    "meow": "^3.7.0",
+    "structured-source": "^3.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
+}
