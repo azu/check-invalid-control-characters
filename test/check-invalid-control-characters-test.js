@@ -8,4 +8,8 @@ describe("check-invalid-control-characters", () => {
         const error = validateInvalidControlCharacters(path.join(__dirname, "fixtures/test.txt"));
         assert.ok(error instanceof Error, "should be reported error");
     });
+    it("should report error if json include invalid characters", () => {
+        const error = validateInvalidControlCharacters(path.join(__dirname, "fixtures/test.json"));
+        assert.ok(error instanceof Error, "should be reported error");
+    });
 });
