@@ -31,7 +31,6 @@
   },
   "homepage": "https://github.com/azu/check-invalid-control-characters",
   "dependencies": {
-    "@std/esm": "^0.5.0",
     "globby": "^6.1.0",
     "meow": "^3.7.0",
     "structured-source": "^3.0.2"

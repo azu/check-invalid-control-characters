@@ -6,11 +6,15 @@ Check invalid control characters like `\u0008` in plain text.
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install check-invalid-control-characters
+    npm install check-invalid-control-characters -g
 
 ## Usage
 
-- [ ] Write usage instructions
+    Usage
+      $ check-invalid-control-characters <glob>
+
+    Examples
+      $ check-invalid-control-characters "src/**/*md"
 
 ## Changelog
 
