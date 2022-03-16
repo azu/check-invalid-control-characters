@@ -9,7 +9,7 @@ const cli = meow(`
 
     Examples
       $ check-invalid-control-characters "src/**/*md"
-          
+      
 `);
 
 const input = cli.input[0];
